@@ -1,0 +1,113 @@
+
+A) Create a ros2 workspace and place the exercise files in it
+
+1.
+    Ho creato una directory ros2/src e ho inserito la cartella EX1 all'interno
+2.
+    Ho apero un terminale in /ros2_ws e ho seguito questi comandi:
+        - source /opt/ros/humble/setup.bash
+        - colcon build
+            OUTPUT->  Starting >>> sysmonitor_interfaces
+                      Finished <<< sysmonitor_interfaces [4.18s]
+
+                      Summary: 1 package finished [4.59s]
+3.
+    Ho verificato che l'operazione fosse andata a buon fine controllando le directory create con:
+        - ls
+            OUTPUT->  build  install  log  src
+
+
+
+
+B) Determine how many topics are in the bag
+
+1.
+    Ho aperto un altro terminale in /ros2_ws eseguendo:
+        - source install/setup.bash
+
+2.
+    Ho eseguito i comandi:
+        - sudo apt install ros-humble-rosbag2-storage-mcap
+        - cd src/EX1/rosbag2_2024_11_22-00_32_31
+        - ros2 bag info rosbag2_2024_11_22-00_32_31_0.mcap
+            OUTPUT->    closing.
+
+                        Files:             rosbag2_2024_11_22-00_32_31_0.mcap
+                        Bag size:          68.7 MiB
+                        Storage id:        mcap
+                        Duration:          10.626805833s
+                        Start:             Nov 22 2024 00:32:31.698013076 (1732231951.698013076)
+                        End:               Nov 22 2024 00:32:42.324818909 (1732231962.324818909)
+                        Messages:          1246
+                        Topic information:  Topic: /imu/acceleration | Type: geometry_msgs/msg/Vector3Stamped | Count: 0 | Serialization Format: cdr
+                                            Topic: /imu/angular_velocity | Type: geometry_msgs/msg/Vector3Stamped | Count: 0 | Serialization Format: cdr
+                                            Topic: /imu/data | Type: sensor_msgs/msg/Imu | Count: 916 | Serialization Format: cdr
+                                            Topic: /zed2i/zed_node/left_gray/image_rect_gray | Type: sensor_msgs/msg/Image | Count: 311 | Serialization Format: cdr
+                                            Topic: /system_info | Type: sysmonitor_interfaces/msg/Sysmon | Count: 19 | Serialization Format: cdr
+3.
+    RISPOSTA: abbiamo 5 topics elencati nell'output precedente
+
+
+
+
+C) Determine the Hz of the topic image
+
+1.
+    Dalle info ricavate dal punto C) abbiamo:
+        a) Duration: 10.626805833s
+        b) Topic: /zed2i/zed_node/left_gray/image_rect_gray | Type: sensor_msgs/msg/Image | Count: 311
+
+2.
+    Calcolo della frequenza del topic Image:
+        f=Count/Duration=311/10.626805833
+
+3.
+    RISPOSTA: f=29,265 Hz
+
+
+
+
+D) Determine the Hz of the topic system
+
+1.
+    Dalle info ricavate dal punto C) abbiamo:
+        a) Duration: 10.626805833s
+        b) Topic: /system_info | Type: sysmonitor_interfaces/msg/Sysmon | Count: 19
+
+2.
+    Calcolo della frequenza del topic Image:
+        f=Count/Duration=19/10.626805833
+
+3.
+    RISPOSTA: f=1,787 Hz
+
+
+
+
+E) Determine what does the topic system return
+
+1.
+    Dalle info ricavate dal punto C) abbiamo:
+        Topic: /system_info | Type: sysmonitor_interfaces/msg/Sysmon
+
+2.
+    Per capire di che tipo di messaggio si tratta ho usato il comando:
+        - ros2 interface show sysmonitor_interfaces/msg/Sysmon
+            OUTPUT->    float64 cpu_usage
+                        float64 cpu_temp
+                        float64 ram_usage
+                        float64 gpu_usage
+                        float64 gpu_temp
+                        float64 gpuram_usage
+
+3.
+    RISPOSTA: il topic ritorna un messaggio di tipo:
+    Sysmon{
+        float64 cpu_usage
+        float64 cpu_temp
+        float64 ram_usage
+        float64 gpu_usage
+        float64 gpu_temp
+        float64 gpuram_usage
+    }
+
