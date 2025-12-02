@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/uninacorse/ros2_ws/build/sysmon_trigger_cpp': CMAKE_PREFIX_PATH=/home/uninacorse/ros2_ws/install/sysmonitor_interfaces:/home/uninacorse/ros2_ws/install/sysmon_trigger_cpp:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ros2_ws/build/sysmon_trigger_cpp -- -j4 -l4
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/system_triggered_publisher.dir/src/system_triggered_publisher.cpp.o[0m
+[7.923s] [100%] [32m[1mLinking CXX executable system_triggered_publisher[0m
+[8.303s] [100%] Built target system_triggered_publisher
+[8.314s] Invoked command in '/home/uninacorse/ros2_ws/build/sysmon_trigger_cpp' returned '0': CMAKE_PREFIX_PATH=/home/uninacorse/ros2_ws/install/sysmonitor_interfaces:/home/uninacorse/ros2_ws/install/sysmon_trigger_cpp:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ros2_ws/build/sysmon_trigger_cpp -- -j4 -l4
+[8.316s] Invoking command in '/home/uninacorse/ros2_ws/build/sysmon_trigger_cpp': CMAKE_PREFIX_PATH=/home/uninacorse/ros2_ws/install/sysmonitor_interfaces:/home/uninacorse/ros2_ws/install/sysmon_trigger_cpp:/opt/ros/humble /usr/bin/cmake --install /home/uninacorse/ros2_ws/build/sysmon_trigger_cpp
+[8.323s] -- Install configuration: ""
+[8.323s] -- Installing: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/lib/sysmon_trigger_cpp/system_triggered_publisher
+[8.327s] -- Set runtime path of "/home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/lib/sysmon_trigger_cpp/system_triggered_publisher" to ""
+[8.327s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/ament_index/resource_index/package_run_dependencies/sysmon_trigger_cpp
+[8.327s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/ament_index/resource_index/parent_prefix_path/sysmon_trigger_cpp
+[8.327s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/environment/ament_prefix_path.sh
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/environment/ament_prefix_path.dsv
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/environment/path.sh
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/environment/path.dsv
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/local_setup.bash
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/local_setup.sh
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/local_setup.zsh
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/local_setup.dsv
+[8.328s] -- Installing: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/package.dsv
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/ament_index/resource_index/packages/sysmon_trigger_cpp
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/cmake/sysmon_trigger_cppConfig.cmake
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/cmake/sysmon_trigger_cppConfig-version.cmake
+[8.328s] -- Up-to-date: /home/uninacorse/ros2_ws/install/sysmon_trigger_cpp/share/sysmon_trigger_cpp/package.xml
+[8.330s] Invoked command in '/home/uninacorse/ros2_ws/build/sysmon_trigger_cpp' returned '0': CMAKE_PREFIX_PATH=/home/uninacorse/ros2_ws/install/sysmonitor_interfaces:/home/uninacorse/ros2_ws/install/sysmon_trigger_cpp:/opt/ros/humble /usr/bin/cmake --install /home/uninacorse/ros2_ws/build/sysmon_trigger_cpp

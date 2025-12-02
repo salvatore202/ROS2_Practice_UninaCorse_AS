@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sysmonitor_interfaces__py",
+		"source" : "/home/uninacorse/ros2_ws/build/sysmonitor_interfaces/sysmonitor_interfaces__py"
+	}
+}
