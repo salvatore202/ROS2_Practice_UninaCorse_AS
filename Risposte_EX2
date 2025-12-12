@@ -1,0 +1,7 @@
+RISPOSTE ESERCIZIO 2
+
+- L'errore "FAULT_DETECTION, BOX BOX BOX!" è generato dall'assenza di un campo all'interno della funzione "magic_function"
+
+-> IL sender (la bag) invia un messaggio con 6 campi
+-> IL reciver (il nodo fault_detection), attraverso la funzione magic_function, si aspetta di ricevere 5 campi invece di 6
+-> manca "float gpuram_usage"

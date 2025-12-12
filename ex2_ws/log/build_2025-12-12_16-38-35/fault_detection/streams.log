@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/uninacorse/ex2_ws/build/fault_detection': CMAKE_PREFIX_PATH=/home/uninacorse/ex2_ws/install/sysmonitor_interfaces:/home/uninacorse/ex2_ws/install/fault_detection:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/fault_detection -- -j4 -l4
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target challenge2[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/challenge2.dir/src/main.cpp.o[0m
+[9.044s] [100%] [32m[1mLinking CXX executable challenge2[0m
+[9.452s] /usr/bin/ld: CMakeFiles/challenge2.dir/src/main.cpp.o: in function `MinimalSubscriber::topic_callback(sysmonitor_interfaces::msg::Sysmon_<std::allocator<void> > const&) const':
+[9.452s] main.cpp:(.text._ZNK17MinimalSubscriber14topic_callbackERKN21sysmonitor_interfaces3msg7Sysmon_ISaIvEEE[_ZNK17MinimalSubscriber14topic_callbackERKN21sysmonitor_interfaces3msg7Sysmon_ISaIvEEE]+0x225): undefined reference to `magic_function(float, float, float, float, float, float)'
+[9.495s] collect2: error: ld returned 1 exit status
+[9.497s] gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:168: challenge2] Errore 1
+[9.497s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Errore 2
+[9.497s] gmake: *** [Makefile:146: all] Errore 2
+[9.499s] Invoked command in '/home/uninacorse/ex2_ws/build/fault_detection' returned '2': CMAKE_PREFIX_PATH=/home/uninacorse/ex2_ws/install/sysmonitor_interfaces:/home/uninacorse/ex2_ws/install/fault_detection:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/fault_detection -- -j4 -l4

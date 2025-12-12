@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target challenge2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/challenge2.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable challenge2[0m
+[100%] Built target challenge2
+-- Install configuration: ""
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/lib/fault_detection/challenge2
+-- Set runtime path of "/home/uninacorse/ex2_ws/install/fault_detection/lib/fault_detection/challenge2" to ""
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/ament_index/resource_index/package_run_dependencies/fault_detection
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/ament_index/resource_index/parent_prefix_path/fault_detection
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/environment/ament_prefix_path.sh
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/environment/ament_prefix_path.dsv
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/environment/path.sh
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/environment/path.dsv
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/local_setup.bash
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/local_setup.sh
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/local_setup.zsh
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/local_setup.dsv
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/package.dsv
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/ament_index/resource_index/packages/fault_detection
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/cmake/fault_detectionConfig.cmake
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/cmake/fault_detectionConfig-version.cmake
+-- Installing: /home/uninacorse/ex2_ws/install/fault_detection/share/fault_detection/package.xml

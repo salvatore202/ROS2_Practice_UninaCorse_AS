@@ -1,0 +1,21 @@
+[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:7:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    7 | using std::placeholders::_1
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+    8 | 
+    9 | [32m[Kclass[m[K MinimalSubscriber : public rclcpp::Node
+      | [32m[K~~~~~[m[K                       
+[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:12:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |     MinimalSubscriber([01;31m[K)[m[K
+      |                       [01;31m[K^[m[K
+      |                        [32m[K;[m[K
+[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:13:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   13 |      Node([01;31m[K"minimal_subscriber"[m[K)
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:13:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+   13 |      Node[34m[K([m[K[01;31m[K"[m[K[32m[Kminimal_subscriber"[m[K)
+      |          [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K)[m[K
+gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:76: CMakeFiles/challenge2.dir/src/main.cpp.o] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

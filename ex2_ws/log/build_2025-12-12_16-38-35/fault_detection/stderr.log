@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/challenge2.dir/src/main.cpp.o: in function `MinimalSubscriber::topic_callback(sysmonitor_interfaces::msg::Sysmon_<std::allocator<void> > const&) const':
+main.cpp:(.text._ZNK17MinimalSubscriber14topic_callbackERKN21sysmonitor_interfaces3msg7Sysmon_ISaIvEEE[_ZNK17MinimalSubscriber14topic_callbackERKN21sysmonitor_interfaces3msg7Sysmon_ISaIvEEE]+0x225): undefined reference to `magic_function(float, float, float, float, float, float)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:168: challenge2] Errore 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Errore 2
+gmake: *** [Makefile:146: all] Errore 2

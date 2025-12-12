@@ -1,0 +1,4 @@
+Invoking command in '/home/uninacorse/ex2_ws/build/sysmonitor_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/sysmonitor_interfaces -- -j4 -l4
+Invoked command in '/home/uninacorse/ex2_ws/build/sysmonitor_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/sysmonitor_interfaces -- -j4 -l4
+Invoking command in '/home/uninacorse/ex2_ws/build/sysmonitor_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uninacorse/ex2_ws/build/sysmonitor_interfaces
+Invoked command in '/home/uninacorse/ex2_ws/build/sysmonitor_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/uninacorse/ex2_ws/build/sysmonitor_interfaces
