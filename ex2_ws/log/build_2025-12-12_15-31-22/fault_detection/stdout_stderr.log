@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target challenge2[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/challenge2.dir/src/main.cpp.o[0m
-[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
-[01m[K/home/uninacorse/ex2_ws/src/EX2/fault_detection/src/main.cpp:13:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalSubscriber[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
-   13 |     : Node("minimal_subscriber"), [01;31m[Kcount_[m[K(0)
-      |                                   [01;31m[K^~~~~~[m[K
-gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:76: CMakeFiles/challenge2.dir/src/main.cpp.o] Errore 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Errore 2
-gmake: *** [Makefile:146: all] Errore 2

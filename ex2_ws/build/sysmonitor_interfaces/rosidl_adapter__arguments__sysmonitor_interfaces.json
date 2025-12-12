@@ -1,6 +1,0 @@
-{
-  "package_name": "sysmonitor_interfaces",
-  "non_idl_tuples": [
-    "/home/uninacorse/ex2_ws/src/EX2/sysmonitor_interfaces:msg/Sysmon.msg"
-  ]
-}

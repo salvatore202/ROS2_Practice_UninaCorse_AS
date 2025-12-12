@@ -1,2 +1,0 @@
-Invoking command in '/home/uninacorse/ex2_ws/build/fault_detection': CMAKE_PREFIX_PATH=/home/uninacorse/ex2_ws/install/sysmonitor_interfaces:/home/uninacorse/ex2_ws/install/fault_detection:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/fault_detection -- -j4 -l4
-Invoked command in '/home/uninacorse/ex2_ws/build/fault_detection' returned '2': CMAKE_PREFIX_PATH=/home/uninacorse/ex2_ws/install/sysmonitor_interfaces:/home/uninacorse/ex2_ws/install/fault_detection:/opt/ros/humble /usr/bin/cmake --build /home/uninacorse/ex2_ws/build/fault_detection -- -j4 -l4
