@@ -26,10 +26,16 @@ class MinimalSubscriber : public rclcpp::Node
       }
       catch (const std::exception & e)
       {
+          //stampa del messaggio di eccezione 
           RCLCPP_ERROR(this->get_logger(),
             "Exception of type %s: %s",
-            typeid(e).name(),   // nome tipo
-            e.what());          // messaggio
+            typeid(e).name(),   
+            e.what());    
+            
+          //stampa del messaggio che ha generato l'eccezione
+          RCLCPP_WARN(this->get_logger(),
+            "Telemetry value that caused fault: cpu_usage=%f, cpu_temp=%f, ram_usage=%f, gpu_usage=%f, gpu_temp=%f",
+            msg.cpu_usage, msg.cpu_temp, msg.ram_usage, msg.gpu_usage, msg.gpu_temp); 
       }
 
     }
