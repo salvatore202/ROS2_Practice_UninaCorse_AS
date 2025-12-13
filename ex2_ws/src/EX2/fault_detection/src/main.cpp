@@ -20,7 +20,17 @@ class MinimalSubscriber : public rclcpp::Node
     void topic_callback(const sysmonitor_interfaces::msg::Sysmon & msg) const
     {
       RCLCPP_INFO(this->get_logger(), "I heard Orin Telemetry");
-      magic_function(msg.cpu_usage,msg.cpu_temp,msg.ram_usage,msg.gpu_usage,msg.gpu_temp /*,msg.gpuram_usage*/);  
+      try
+      {
+        magic_function(msg.cpu_usage,msg.cpu_temp,msg.ram_usage,msg.gpu_usage,msg.gpu_temp /*,msg.gpuram_usage*/);  
+      }
+      catch (const std::exception & e)
+      {
+          RCLCPP_ERROR(this->get_logger(),
+            "Exception of type %s: %s",
+            typeid(e).name(),   // nome tipo
+            e.what());          // messaggio
+      }
 
     }
     rclcpp::Subscription<sysmonitor_interfaces::msg::Sysmon>::SharedPtr subscription_;
